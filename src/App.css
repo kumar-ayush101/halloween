@@ -1,0 +1,15 @@
+
+.full-width-section {
+  width: 100%;
+  padding: 50px; 
+  background-color: aqua;
+}
+
+section {
+  margin: 0; 
+  width: 100%;
+}
+
+.maincontainer{
+  width: 100%;
+}

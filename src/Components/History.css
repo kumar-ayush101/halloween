@@ -1,0 +1,30 @@
+.history-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('../assets/pics/halloween2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.history-text {
+  color: white;
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  opacity: 0;
+  transform: scale(1.2);
+  transition: all 0.8s ease-out;
+}
+
+.history-text.zoom-in {
+  opacity: 1;
+  transform: scale(1);
+}

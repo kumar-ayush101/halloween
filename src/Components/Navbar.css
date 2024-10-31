@@ -1,0 +1,33 @@
+nav {
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 15px;
+  z-index: 1000; 
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+li a {
+  color: white; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: color 0.3s ease; 
+}
+
+li a:hover {
+  color: #ff8800;
+}
