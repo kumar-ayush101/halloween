@@ -1,8 +1,8 @@
 
 .full-width-section {
-  width: 100%;
+  width: 94vw;
   padding: 50px; 
-  background-color: aqua;
+  background-color: black;
 }
 
 section {
@@ -12,4 +12,13 @@ section {
 
 .maincontainer{
   width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+body {
+  overflow-y: scroll; 
 }
